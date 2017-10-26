@@ -1,7 +1,70 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <title>Jessie Gray Singer | Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container">
+      <!-- desktop only nav -->  
+      <nav>
+        <div>
+          <a href="index.html">About</a>
+          <a href="work.html">Writing</a>
+        </div>
+        <div>
+          <h1>Jessie Gray Singer</h1>
+        </div>
+        <div>
+          <a href="book.html">Book</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+      <!-- mobile only nav -->
+      <div id="mobilemenu">
+          <h3 id="menubutton">Menu</h3>
+          <ul id="links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="work.html">Writing</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://twitter.com/jessiesingernyc">Twitter</a></li>
+            <li><a href="https://www.instagram.com/jessiegraysinger/">Instagram</a></li>
+          </ul>
+      </div>
+    </div>
+    <div id="content">
+      <div class="formcontainer">
+        <h2>Drop me a line!</h2>
+        <form action="http://formspree.io/andrewhinderaker@gmail.com" method="POST">
+          <div class="formgroup">
+            <label for="email" class="formlabel">Email address:</label>
+            <input type="email" name="_replyto" class="form" id="email">
+          </div>  
+          <div class="formgroup">
+            <label for="subject" class="formlabel">Subject:</label>
+            <input type="text" class="form" id="subject" maxlength="30"/>
+          </div>
+          <div class="formgroup">
+            <label for="message" class="formlabel">Message:</label>
+            <textarea for="message" class="form" id="message"></textarea>
+          </div>
+          <div class="formgroup">
+<!--             <input type="submit" name="send" value="Submit" id="submit"> -->
+<button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <a href="https://www.instagram.com/jessiegraysinger/"><img src="images/insta.png"></a>
+      <a href="https://twitter.com/jessiesingernyc"><img src="images/twitta.png"></a>
+    </footer>
+    </div>
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
