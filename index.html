@@ -39,23 +39,11 @@
     <div id="content">
       <div class="formcontainer">
         <h2>Drop me a line!</h2>
-        <form action="http://formspree.io/andrewhinderaker@gmail.com" method="POST">
-          <div class="formgroup">
-            <label for="email" class="formlabel">Email address:</label>
-            <input type="email" name="_replyto" class="form" id="email">
-          </div>  
-          <div class="formgroup">
-            <label for="subject" class="formlabel">Subject:</label>
-            <input name="subject" type="text" class="form" id="subject" maxlength="30"/>
-          </div>
-          <div class="formgroup">
-            <label for="message" class="formlabel">Message:</label>
-            <textarea name="message" for="message" class="form" id="message"></textarea>
-          </div>
-          <div class="formgroup">
-<button type="submit">Send</button>
-          </div>
-        </form>
+        <form method="POST" action="http://formspree.io/andrewhinderaker@gmail.com">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
       </div>
     </div>
     <footer>
