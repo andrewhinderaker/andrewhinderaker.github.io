@@ -39,53 +39,23 @@
     <div id="content">
       <div class="formcontainer">
         <h2>Drop me a line!</h2>
-        <!-- <form action="http://formspree.io/andrewhinderaker@gmail.com" method="POST">
+        <form action="http://formspree.io/andrewhinderaker@gmail.com" method="POST">
           <div class="formgroup">
             <label for="email" class="formlabel">Email address:</label>
             <input type="email" name="_replyto" class="form" id="email">
           </div>  
           <div class="formgroup">
             <label for="subject" class="formlabel">Subject:</label>
-            <input type="text" class="form" id="subject" maxlength="30"/>
+            <input name="subject" type="text" class="form" id="subject" maxlength="30"/>
           </div>
           <div class="formgroup">
             <label for="message" class="formlabel">Message:</label>
-            <textarea for="message" class="form" id="message"></textarea>
+            <textarea name="message" for="message" class="form" id="message"></textarea>
           </div>
           <div class="formgroup">
 <button type="submit">Send</button>
           </div>
-        </form> -->
-
-
-
-        <form action="https://formspree.io/andrewhinderaker@gmail.com" method="POST">
-          <div>
-            <label> Name:</label>
-            <input type="text" name="name">
-          </div>
-
-          <div>
-            <label> Email:</label>
-            <input type="text" name="_replyto">
-          </div>
-
-          <div>
-            <label> Comment: </label>
-            <textarea name="comments"></textarea>
-          </div>
-
-          <!-- this is the page that will be displayed after some submits the form -->
-          <input type="hidden" name="_next" value="thank_you.html" />
-
-          <div>
-            <input type="submit" value="Send">
-          </div>
-
-
-
-
-
+        </form>
       </div>
     </div>
     <footer>
