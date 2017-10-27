@@ -42,15 +42,15 @@
         <form action="https://formspree.io/andrewhinderaker@gmail.com" method="POST">
           <div class="formgroup">
             <label for="email" class="formlabel">Email address:</label>
-            <input type="email" name="Reply To:" class="form" id="email">
+            <input name="email" type="email" name="_replyto" class="form" id="email">
           </div>  
           <div class="formgroup">
             <label for="subject" class="formlabel">Subject:</label>
-            <input type="text" class="form" id="subject" maxlength="30"/>
+            <input name="subject" type="text" class="form" id="subject" maxlength="30"/>
           </div>
           <div class="formgroup">
             <label for="message" class="formlabel">Message:</label>
-            <textarea for="message" class="form" id="message"></textarea>
+            <textarea name="message" for="message" class="form" id="message"></textarea>
           </div>
           <div class="formgroup">
               <button type="submit">Send</button>
