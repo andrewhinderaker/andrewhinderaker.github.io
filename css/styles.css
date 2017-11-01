@@ -62,16 +62,15 @@ nav, footer {
   list-style: none;
   margin-bottom: 20px;
 }
-/*mobile links*/
+/* mobile links */
 #links a {
   font-size: .7em;
   text-transform: uppercase;
 }
-/*regular menu links*/
 a {
   text-decoration: none;
   color: gray;  
-  font-size: .9em;
+  font-size: 1em;
 }
 a:hover {
   color: black;
@@ -112,7 +111,7 @@ article p {
 footer {
   float: left;
 }
-/*work page*/
+/* Work page */
 .column {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -133,15 +132,12 @@ footer {
 .column a:hover {
   color: darkgray;
 }
-
 #book {
   width: 80%;
   max-width: 700px;
   text-align: center;
 }
-
-/*Form*/
-
+/* Contact Page */
 .formcontainer {
   width: 100%;
   display: flex;
@@ -181,9 +177,7 @@ form * {
 form {
   width: 70%;
 }
-
-/*accident page*/
-
+/* Accident page */
 .accidentimages {
   display: flex;
   flex-direction: row;
@@ -196,7 +190,6 @@ form {
 .accidenttext p {
   margin: 2em 2em;
 }
-
 /* full screen styles below - default styles are mobile only */
 @media only screen and (min-width: 601px) {  
   .container {
@@ -236,7 +229,7 @@ form {
   h1 {
     font-size: 1.8em;
   }
-  /*work page*/
+  /* Work page */
   .column {
     width: 15em;
   }
@@ -255,7 +248,7 @@ form {
   .column a:hover {
     color: darkgray;
   }
-  /*mobile menu*/
+  /* Mobile nav menu */
   nav {
     border: none;
   }
@@ -266,7 +259,7 @@ form {
   a:last-of-type {
     margin-right: 0px;
   }
-  /*Contact Page*/
+  /* Contact page */
   .formcontainer {
     width: 60%;
     display: flex;
@@ -274,9 +267,6 @@ form {
     justify-content: center;
     align-items: center;
   }
-/*  .formcontainer  * {
-    margin: 3px 0px;
-  }*/
   label {
     display: block;
   }
@@ -289,9 +279,6 @@ form {
   #submit {
     text-align: center;
   }
-/*  .formcontainer {
-    padding: 4em 2em 8em 2em;
-  }*/
   .formcontainer h2 {
     font-size: .9em;
     margin-bottom: 5em;
@@ -299,8 +286,7 @@ form {
   #content {
     min-height: 500px;
   }
-  
-  /*accident page */
+  /* Accident page */
   .accidentcontainer {
     width: 50%;
     padding: 4em 2em 8em 2em;
@@ -310,8 +296,5 @@ form {
     height: 5em;
   }
   .accidenttext p {
-/*    margin: 6em 2em;
-*/  }
-
-
+  }
 }
