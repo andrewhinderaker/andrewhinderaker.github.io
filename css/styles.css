@@ -1,0 +1,317 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-size: .9em;
+}
+h1 {
+  font-size: 1.5em;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+#content {
+  padding: 2em 2em 8em 2em;
+}
+.column {
+  padding: 8px;
+  text-align: center;
+  margin: 10px 0px;
+}
+#biophoto, .referphoto {
+  text-align: center;
+}
+#biophoto img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+div#spacer {
+    width: 1em;
+}
+footer img {
+  width: 1.3em;
+}
+.referphoto img {
+  width: 100%;
+  max-width: 225px;
+}
+nav, footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  text-align: center;
+}
+#mobilemenu, #links, #links > ul {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#links {
+  display: none;
+  list-style: none;
+  margin-bottom: 20px;
+}
+/*mobile links*/
+#links a {
+  font-size: .7em;
+  text-transform: uppercase;
+}
+/*regular menu links*/
+a {
+  text-decoration: none;
+  color: gray;  
+  font-size: .9em;
+}
+a:hover {
+  color: black;
+}
+h3 {
+  font-size: .8em;
+  text-transform: uppercase;
+}
+footer {
+  justify-content: center;
+}
+nav a, footer a {
+  margin-right: 25px;
+}
+nav a, footer {
+  display: none;
+}
+nav, #links {
+  border-bottom: 1px darkgray solid;
+}
+#links {
+  padding-bottom: 10px;
+}
+header, article, aside {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+article {
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+article p {
+  margin-top: 0px;
+}
+footer {
+  float: left;
+}
+/*work page*/
+.column {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.column h2 {
+  font-size: .8em;
+  text-align: center;
+}
+.column p {
+  font-size: .7em;
+  margin: .4em 5em;
+}
+.column a {
+  color: black;
+  text-transform: uppercase;
+  font-size: .9em;
+}
+.column a:hover {
+  color: darkgray;
+}
+
+#book {
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+}
+
+/*Form*/
+
+.formcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+label {
+  display: block;
+}
+.form {
+  width: 100%;
+  border: 1px lightgray solid;
+  border-radius: 2px;
+  font-size: .8em;
+}
+.button {
+  font-size: .8em;
+}
+.message {
+  height: 140px;
+}
+#submit {
+  text-align: center;
+}
+h2 {
+  font-size: .9em;
+  margin: 1em 0px;
+}
+.formlabel {
+  font-size: .8em;
+}
+form * {
+  margin: 3px 0px;
+}
+form {
+  width: 70%;
+}
+
+/*accident page*/
+
+.accidentimages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.accidentimages img {
+  width: 4em;
+  height: 4em;
+}
+.accidenttext p {
+  margin: 2em 2em;
+}
+
+/* full screen styles below - default styles are mobile only */
+@media only screen and (min-width: 601px) {  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+  }
+  article {
+    width: 30%;
+    margin: 10px 0px;
+  }
+  p {
+    font-size: .9em;
+  }
+  #biophoto {
+    width: 30%;
+  }
+  nav a, footer {
+    display: unset;
+  }
+  #mobilemenu {
+    display: none;
+  }
+  aside, footer, header {
+    width: 100%;
+  }
+  #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: center;
+    padding-bottom: 1em;
+  }
+  #content > * {
+    margin: 0px 2em;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  /*work page*/
+  .column {
+    width: 15em;
+  }
+  .column h2 {
+    font-size: 1em;
+    text-align: center;
+  }
+  .column p {
+    font-size: .7em;
+    margin: 0px;
+    margin-top: .4em;
+  }
+  .column a {
+    color: black;
+  }
+  .column a:hover {
+    color: darkgray;
+  }
+  /*mobile menu*/
+  nav {
+    border: none;
+  }
+  nav a {
+    font-size: .8em;
+    text-transform: uppercase;
+  }
+  a:last-of-type {
+    margin-right: 0px;
+  }
+  /*Contact Page*/
+  .formcontainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+/*  .formcontainer  * {
+    margin: 3px 0px;
+  }*/
+  label {
+    display: block;
+  }
+  .form {
+    width: 100%;
+  }
+  #message {
+    height: 100px;
+  }
+  #submit {
+    text-align: center;
+  }
+/*  .formcontainer {
+    padding: 4em 2em 8em 2em;
+  }*/
+  .formcontainer h2 {
+    font-size: .9em;
+    margin-bottom: 5em;
+  }
+  #content {
+    min-height: 500px;
+  }
+  
+  /*accident page */
+  .accidentcontainer {
+    width: 50%;
+    padding: 4em 2em 8em 2em;
+  }
+  .accidentimages img {
+    width: 5em;
+    height: 5em;
+  }
+  .accidenttext p {
+/*    margin: 6em 2em;
+*/  }
+
+
+}
