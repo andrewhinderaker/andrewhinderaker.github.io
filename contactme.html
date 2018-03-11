@@ -23,24 +23,23 @@
         <div class="nav desktop">
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
-          <a id="active" href="writing.html">Writing</a>
+          <a href="writing.html">Writing</a>
           <a href="publications.html">Publications</a>
-          <a href="contactme.html">Contact</a>
+          <a id="active" href="contactme.html">Contact</a>
         </div>
 
         <!-- mobile nav & logo below -->
-
 
         <nav class="navbar navbar-expand-sm navbar-light bg-faded mobile">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-            <a class="navbar-brand" href="#">Jessie Singer</a>
+          <a class="navbar-brand" href="#">Jessie Singer</a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
@@ -49,10 +48,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="writing.html">Writing</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a class="nav-link" href="publications.html">Publications</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="contactme.html">Contact</a>
               </li>
             </ul>
@@ -61,65 +60,29 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-sm-4">
-              <a href="https://www.buzzfeed.com/jessesinger/ban-cars" target="_blank">
-              <img src="images/buzzfeed-logo.jpg">
-              </a>
-              <p class="writing">BuzzFeed Opinion</p>
-            </div>
-            <div class="col-sm-4">
-              <a href="https://theawl.com/but-was-it-an-accident-really-679b5ab44666" target="_blank">
-                <img src="images/theawl.jpg">
-              </a>
-              <p class="writing">The Awl</p>
-            </div>
-            <div class="col-sm-4">
-              <a href="https://www.theguardian.com/lifeandstyle/2015/apr/03/ghost-bikes-jessie-gray-singer-cycling-deaths" target="_blank">
-                <img src="images/guardian.jpg">
-              </a>  
-              <p class="writing">The Guardian</p>
+            <div class="col-sm-12">
+              <h2>Please get in touch with questions, assignments, projects, and pictures of your dog.</h2>
             </div>
           </div>
+
           <div class="row">
-            <div class="col-sm-4">
-              <a href="http://nymag.com/daily/intelligencer/2017/01/wayne-barrett-the-voices-great-trump-reporter-dies-at-71.html" target="_blank">
-                <img src="images/nymag.jpg">
-              </a>
-              <p class="writing">New York Magazine</p>
-            </div>
-            <div class="col-sm-4">
-              <a href="http://www.themillions.com/author/jessie-gray-singer" target="_blank">
-                <img src="images/millions.jpg">
-              </a>
-              <p class="writing">
-              The Millions
-              </p>
-            </div>
-            <div class="col-sm-4">
-              <a href="https://thehairpin.com/how-to-build-a-fire-68b6b205332f" target="_blank">
-                <img src="images/hairpin.jpg">
-              </a>
-              <p class="writing">
-              The Hairpin
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4">
-              <a href="https://www.villagevoice.com/2004/05/11/the-sex-scandal-that-put-bush-in-the-white-house/" target="_blank">
-                <img src="images/villagevoice.jpg">
-              </a>
-              <p class="writing">The Village Voie</p>
-            </div>
-            <div class="col-sm-4">
-              <a href="https://www.theawl.com/2016/12/the-best-new-york-rat-stories-of-2016/" target="_blank">
-                <img src="images/theawl.jpg">
-              </a>
-              <p class="writing">
-              The Awl
-              </p>
-            </div>
-          </div>
+            <div class="col-lg-12 text-left">
+              <div class="formcontainer">               
+                <form method="POST" action="https://formspree.io/andrewhinderaker@gmail.com">
+                  <div class="formgroup">
+                    <label class="formlabel">Email Address:</label><br>
+                    <input class="form" type="email" name="email">
+                  </div>  
+                  <div class="formgroup">
+                    <label class="formlabel">Your message:</label><br>
+                    <textarea class="form message" name="message"></textarea>
+                  </div>  
+                  <input type="hidden" name="_next" value="thank_you.html" /><br>
+                  <button class="button btn btn-dark" type="submit">Send</button>
+                </form>
+              </div>
+            </div> 
+          </div>  
         </div>
 
 
