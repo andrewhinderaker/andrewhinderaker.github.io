@@ -183,6 +183,10 @@ p.publications {
   text-align: left;
 }
 
+.subscribe {
+  font-family:   'Quattrocento Sans', sans-serif;
+  font-size: 1.1em;
+}
 
 /* mobile only below */
 @media only screen and (max-width: 575px) {  
