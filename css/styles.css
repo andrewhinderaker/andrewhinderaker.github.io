@@ -250,6 +250,12 @@ p.publications {
     width: 100%;
   }
 
+/* fixes spacing on writing page */
+
+.col-sm-4 img {
+  width: 80%;
+}
+
   .logo.desktop, .nav.desktop {
     display: none;
   } 
