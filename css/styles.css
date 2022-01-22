@@ -245,6 +245,12 @@ p.publications {
   padding-top:  15px;
 }
 
+/* fix text size on contact me page */
+
+.col-sm-6 h6 {
+font-size: .7em;
+}
+
 /* fixes quote images on index page */ 
   .col-lg-12 img {
     width: 100%;
@@ -255,6 +261,8 @@ p.publications {
 .col-sm-4 img {
   width: 80%;
 }
+
+
 
   .logo.desktop, .nav.desktop {
     display: none;
