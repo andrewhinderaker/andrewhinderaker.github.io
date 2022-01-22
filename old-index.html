@@ -5,8 +5,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -16,6 +16,11 @@
   <body>
 
       <div class="main">
+        <div class="alert alert-info subscribe" role="alert">
+        <a class="alert-link" target="_blank" href="https://www.simonandschuster.com/books/There-Are-No-Accidents/Jessie-Singer/9781982129668">Get your copy of "There Are No Accidents" Today</a> 
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </div>
 
         <!-- desktop nav & logo below -->
 
@@ -24,84 +29,56 @@
         </div>
 
         <div class="nav desktop">
-          <a href="index.html">Home</a>
+          <a id="active" href="index.html">Home</a>
           <a href="book.html">Book</a>
           <a href="writing.html">Selected Writing</a>
           <a href="about.html">About</a>
-          <a id="active" href="contactme.html">Contact</a>
+          <a href="contactme.html">Contact</a>
         </div>
 
         <!-- mobile nav & logo below -->
+
 
         <nav class="navbar navbar-expand-sm navbar-light bg-faded mobile">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">Jessie Singer</a>
+
+            <a class="navbar-brand" href="#">Jessie Singer</a>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home </a>
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="book.html">Book </a>
+                <a class="nav-link" href="book.html">Book</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="writing.html">Selected Writing</a>
               </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>        
-              <li class="nav-item active">
-                <a class="nav-link" href="contactme.html">Contact <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="contactme.html">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
 
- <div id="content"> 
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 d-none d-sm-block"><p></p></div>
-          </div>
-
-          <div class="row">
-
-            <div class="col-sm-5">
-              <img width="100%" src="images/jbio2.jpg">
-<br><br>
-              <img width="100%" src="images/jbio1.jpg">
-            </div>
-<div class="col-sm-1"></div>
-            <div class="col-sm-6 " >
-              
-
-              <h6 class="text-left"><u><strong>Publicity</strong><br></u>
-              Shannon Hennessey at Simon & Schuster<br>
-              <a href="mailto:Shannon.Hennessey@SimonandSchuster.com" target="_blank">Shannon.Hennessey@SimonandSchuster.com</a></h6>
-<br>
-              <h6 class="text-left"><u><strong>Marketing</strong><br></u>
-              Leila Siddiqui at Simon & Schuster<br>
-              <a href="mailto:Leila.Siddiqui@SimonandSchuster.com" target="_blank">Leila.Siddiqui@SimonandSchuster.com</a></h6>
-<br>
-              <h6 class="text-left"><u><strong>Representation</strong><br></u>
-              Stephen Barr at Writer’s House<br>
-              <a href="mailto:SBarr@WritersHouse.com" target="_blank">SBarr@WritersHouse.com</a></h6>
-<br>
-              <h6 class="text-left"><u><strong>For all other inquiries</strong></u><br>
-              <a href="mailto:JessieSingerNYC@gmail.com" target="_blank">JessieSingerNYC@gmail.com</a></h5>
+ 
 
 
-            </div>
-            <div class="row">
-            <div class="col-sm-6"><p></p></div>
-           </div>
-          </div>
-
-         </div>
+        <div id="content">    
+          <h1 class="text-left">
+            "Jessie Singer is one of those rare human beings who was born to ask questions, penetrating questions, about everything that really matters in life."
+          </h1>
+          <h5 class="text-left">— Wayne Barrett, investigative reporter and author of <i>City for Sale</i> and <i>Trump: The Greatest Show on Earth</i>
+          </h5>
         </div>
-
-
+        </div>
         <div class="footer">
           <a target="_blank" href="https://medium.com/s/accident">
             <i class="fab fa-medium-m"></i>

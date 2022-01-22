@@ -6,6 +6,8 @@
   text-align: center;
 }
 
+
+
 .logo p {
   text-transform: uppercase;
   font-family: 'Thasadith', sans-serif;
@@ -37,6 +39,12 @@
   color: #3B8E90;
 }
 
+.contactme {
+  justify-content: flex-start !important ; 
+}
+
+
+/*
 h1 {
   font-family: 'Merriweather', serif;
   font-size: 2.4em;
@@ -60,6 +68,7 @@ h5 {
   font-family: 'Merriweather', serif;
   margin: 2em 9em;
 }
+*/
 
 .top {
   border: 1px solid red;
@@ -111,7 +120,7 @@ a:hover {
 .footer {
   color: darkgrey;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 3em;
   margin-bottom: 3em;
 }
 
@@ -156,6 +165,7 @@ a:hover {
   padding-top: 2em;
 }
 
+
 .col-sm-4 {
   padding: 2em;
 }
@@ -183,11 +193,17 @@ p.writing {
   margin-top: 1em;
 }
 
+/*
+
 p {
-  /*font-family:   'Quattrocento Sans', sans-serif;*/
-  font-family: 'Merriweather', serif;
+
+  /* this was noted out before - font-family:   'Quattrocento Sans', sans-serif; */
+
+/*  font-family: 'Merriweather', serif;
   font-size: 1em;
 }
+
+*/
 
 .formlabel {
   font-family:   'Quattrocento Sans', sans-serif;
@@ -199,6 +215,9 @@ p {
   width: 40%;
   background-color: #fafafa;
 }
+
+
+
 
 p.publications {
   text-align: left;
@@ -214,6 +233,22 @@ p.publications {
 /*  #content {
     background-color: red;
   }*/
+
+/* fixes spacing on about page */
+.col-sm-7 {
+    padding-top: 15px;
+}
+
+/* fixes spacing on contact me page */
+.col-sm-6 {
+  padding-top:  15px;
+}
+
+/* fixes quote images on index page */ 
+  .col-lg-12 img {
+    width: 100%;
+  }
+
   .logo.desktop, .nav.desktop {
     display: none;
   } 
@@ -239,6 +274,7 @@ p.publications {
     transition: 300ms ease;
     color: black;
   }
+  /*
   h1 {
     font-family: 'Merriweather', serif;
     font-size: 2em;
@@ -258,9 +294,17 @@ p.publications {
   .row p {
     margin-top: 0px;
   }
+  */
+
   .col-sm-12 {
     padding-top: 1em;
   }
+
+  .col-md-7 {
+    padding-top:  1em;
+  }
+
+
   .quote {
     font-style: italic;
     color: #888;
